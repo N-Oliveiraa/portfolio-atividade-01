@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Nivaldo Oliveira</title>    
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="logo-portfolio">Nivaldo Oliveira</h1>
+        <nav>
+            <ul id="menu">
+                <li class="menu-navegacao"><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li>
+                    <button id="btn-tema">
+                        <i class="fa-solid fa-moon" id="icon-moon"></i>
+                        <i class="fa-solid fa-sun hidden"id="icon-sun"></i>
+                    </button>
+                </li>
+            </ul>
+            <div id="menu-hamburguer">
+                <i class="fa-solid fa-bars"></i>
+            </div>    
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="container perfil">
+                <img src="assets/imagens/perfil.png" alt="Foto de Nivaldo Oliveira" class="foto-perfil">
+            </div>
+            <div>    
+                <H1>Nivaldo Oliveira</H1>
+                <p class="cabecalho-sub-titulo">Desenvolvedor web</p>
+            </div>
+        </section>
+        
+        <section id="sobre" class="sobre">
+            <h2 class="sobre-titulo">Sobre Mim</h2>
+            <div class="sobre-caixa">
+                <p class="sobre-paragrafo">
+                    Óla! Sou um desenvolvedor web apaixonado por criar experiências web únicas e memoráveis. Combino código limpo com design moderno para desenvolver sites que não só funcionam perfeitamente, mas também impressionam visualmente.            
+                </p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+                <div class="projetos-container">
+                    <!-- CARDS AQUI -->
+                </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="#" method="post" id="meu-formulario">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>                
+                </div>
+                <div class="campo">
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Nivaldo Oliveira</p>
+
+        <div class="redes">
+            <a href="https://www.linkedin.com/home" target="_blank" aria-label="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://discord.gg/MEUuPECB2w" target="_blank" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+        </div>
+
+        <button id="btn-topo">
+            ↑ 
+        </button>
+    </footer>
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
