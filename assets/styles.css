@@ -4,6 +4,7 @@
     --light-bg: #f1f5f9;     
     --white: #ffffff;
     --menu-ativo: #d0dff0;
+    --icon-color: #0f172a;
 }
 
 * {
@@ -228,7 +229,6 @@ h2 {
     transform: translateY(-2px);
 }
 
-
 form {
     background-color: var(--white);
     padding: 40px;
@@ -343,7 +343,7 @@ footer p {
     display: block;
     width: 100%;
     height: 3px;
-    background: var(--dark-color);
+    background: var(--icon-color);
     border-radius: 2px;
     transition: all 0.3s ease;
 }
@@ -414,7 +414,8 @@ footer p {
     --dark-color: #f1f5f9;  
     --white: #1e293b;      
     --primary-color: #3b82f6; 
-    --menu-ativo: #1e293b; 
+    --menu-ativo: #1e293b;
+    --icon-color: #f1f5f9;
 }
 
 .dark-theme footer {
@@ -483,7 +484,7 @@ footer p {
         display: flex;
         z-index: 2000;
         position: relative;
-        right: 12px;
+        right: 12px;     
     }
 
     #menu li {
