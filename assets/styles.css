@@ -418,6 +418,10 @@ footer p {
     --icon-color: #f1f5f9;
 }
 
+.dark-theme #menu-hamburguer span {
+    background: var(--icon-color);
+}
+
 .dark-theme footer {
     background-color: #020617;
     color: #f1f5f9;         
