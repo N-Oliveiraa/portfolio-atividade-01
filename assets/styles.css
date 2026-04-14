@@ -33,6 +33,11 @@ header {
 .logo-portfolio {
     display: flex;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 nav ul {
@@ -143,7 +148,8 @@ h2 {
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);    
     flex: 1 1 300px;    
     max-width: 400px;
-    height: 380px;
+    min-height: 380px;
+    height: auto;
     border: 1px solid #e2e8f0;
     transition: transform 0.4s ease;
 }
@@ -215,7 +221,7 @@ h2 {
 }
 
 .btn-github:hover {
-    background-color: #1d4ed8; /* fica mais escuro no hover */
+    background-color: #1d4ed8; 
     transform: translateY(-2px);
 }
 
@@ -508,7 +514,7 @@ body.dark-theme #menu a:hover {
     }
 
     .botoes-projeto {
-        gap: 100px;
+        gap: 40px;
     }
 }
 
@@ -539,7 +545,7 @@ body.dark-theme #menu a:hover {
     }
 
     .botoes-projeto {
-        gap: 32px;
+        gap: 16px;
     }
 }
 

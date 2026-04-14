@@ -115,25 +115,26 @@ function renderizarProjetos() {
                     <h3>${projeto.titulo}</h3>
                     <p>${projeto.descricao}</p>
 
-                    <div className="botoes-projeto">
+                    <div class="botoes-projeto">
                         <a
-                        href={p.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-ver-projeto"
-                        >
-                        Ver projeto
+                            href=${projeto.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-ver-projeto"
+                            >
+                            Ver projeto
                         </a>
 
                         <a
-                        href={p.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-github"
-                        >
-                        GitHub
+                            href=${projeto.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn-github"
+                            >
+                            GitHub
                         </a>
                     </div>
+
                 </div>
             </article>
         `;
